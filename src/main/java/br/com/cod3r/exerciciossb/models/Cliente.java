@@ -7,8 +7,11 @@ public class Cliente {
 	private String nome;
 	private String cpf;	
 	
-	public Cliente(int i, String string, String string2) {
-		// TODO Auto-generated constructor stub
+	public Cliente(int id, String nome, String cpf) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.cpf = cpf;
 	}
 	public int getId() {
 		return id;
